@@ -37,8 +37,12 @@ Use `PyLong_AsLongLong` and `PyLong_FromLongLong` instead when dealing with larg
 Examples:
 - `PyString_Check` => `PyUnicode_Check`
 - `PyString_FromString` => `PyUnicode_FromString`
+<<<<<<< HEAD
 - `PyString_FromStringAndSize` => `PyString_FromStringAndSize`
 - `PyUnicode_AsUTF8` + `PyString_AsString` => `PyString_AsString`
+=======
+- `PyString_FromStringAndSize` => `PyUnicode_FromStringAndSize`
+>>>>>>> 461912183f256bee50975052c2fbcaf104772960
 - `PyString_FromFormat` -> `PyUnicode_FromFormat`
 - `PyString_AsString` => `PyUnicode_AsUTF8`
 
